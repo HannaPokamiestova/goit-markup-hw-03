@@ -223,6 +223,11 @@ body {
 }
 
 /* ------------- WORK ---------- */
+
+.work-list {
+  display: flex;
+}
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -230,6 +235,24 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+}
+
+.section-title-style {
+  width: 376px;
+  height: 42px;
+  margin-bottom: 50px;
+}
+
+.work-item {
+  margin-right: 30px;
+  margin-bottom: 94px;
+  margin-top: 50px;
+  width: 370px;
+  height: 294px;
+}
+
+.work-item:last-child {
+  margin-right: 0;
 }
 
 /* ------------- TEAM ---------- */
