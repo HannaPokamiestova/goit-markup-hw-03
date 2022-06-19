@@ -67,6 +67,7 @@ body {
   color: var(--white-color);
   background-color: var(--accent-color);
   border: none;
+  padding: 10px 32px;
 }
 
 .visually-hidden {
@@ -154,7 +155,6 @@ body {
 /* ------------- HERO ---------- */
 
 .hero .container {
-  outline: 1px solid red;
   padding-bottom: 200px;
   padding-top: 200px;
   width: 1200px;
@@ -174,8 +174,17 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
-  margin-bottom: 30px;
-  margin-top: 0;
+
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+
+.button-style {
+  margin-top: 30px;
+  margin-bottom: 200px;
+  width: 200px;
+  height: 50px;
+  padding: 0px;
 }
 
 /* ------------- BENEFITS ---------- */
@@ -235,12 +244,15 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+
+  margin-bottom: 50px;
+  margin-top: 0px;
+  padding-top: 94px;
 }
 
-.section-title-style {
-  width: 376px;
-  height: 42px;
-  margin-bottom: 50px;
+.section-title-center {
+  text-align: center;
+  margin-right: 0px;
 }
 
 .work-item {
@@ -261,12 +273,36 @@ body {
   background-color: var(--secondary-background);
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-list > .team-item {
+  padding: 0px;
+  margin-right: 30px;
+  list-style: none;
+  padding-bottom: 94px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.team-item:last-child {
+  margin-right: 0;
+}
+
+.team-list {
+  display: flex;
+}
+
 .team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .team-text {
