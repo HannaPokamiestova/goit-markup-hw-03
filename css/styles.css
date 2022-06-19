@@ -315,6 +315,10 @@ body {
 
 /* ------------- FOOTER ---------- */
 
+.container {
+  outline: 1px solid red;
+}
+
 .footer {
   background-color: var(--background-footer);
   text-decoration: none;
@@ -322,6 +326,7 @@ body {
 
 .footer-logo {
   color: var(--white-color);
+  margin-bottom: 20px;
 }
 
 .footer-link {
@@ -332,6 +337,11 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   text-decoration: none;
+  margin-top: 20px;
+}
+
+.footer-link-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer-link:hover,
