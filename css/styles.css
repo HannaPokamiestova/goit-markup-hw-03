@@ -68,11 +68,13 @@ body {
   background-color: var(--accent-color);
   border: none;
   padding: 10px 32px;
+  border-radius: 4px;
 }
 
 .button-list {
   min-width: auto;
   padding: 6px 22px;
+  border-radius: 4px;
 }
 
 .visually-hidden {
@@ -367,6 +369,10 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+}
+
+.portfolio-button-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .header-link {
