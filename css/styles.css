@@ -369,6 +369,7 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  margin-top: 94px;
 }
 
 .portfolio-button-item:not(:last-child) {
