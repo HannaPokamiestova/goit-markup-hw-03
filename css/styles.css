@@ -368,8 +368,27 @@ body {
 .portfolio-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
-  margin-top: 94px;
+  padding: 0px;
+  padding-bottom: 50px;
+  padding-top: 94px;
+  flex-wrap: wrap;
+  list-style: none;
+  outline: 1px solid red;
+}
+
+.card-set {
+  outline: 1px solid red;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  flex-wrap: wrap;
+}
+
+.card-set > .item {
+  outline: 1px solid teal;
+  flex-basis: calc(100% / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .portfolio-button-item:not(:last-child) {
