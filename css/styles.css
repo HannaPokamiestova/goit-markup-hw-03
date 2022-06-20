@@ -327,7 +327,6 @@ body {
 .footer {
   background-color: var(--background-footer);
   text-decoration: none;
-  display: inline-block;
   padding-top: 60px;
   padding-bottom: 60px;
 }
