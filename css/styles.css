@@ -259,6 +259,9 @@ body {
 
 /* ------------- WORK ---------- */
 
+.work {
+  padding-bottom: 94px;
+}
 .work-list {
   display: flex;
 }
@@ -271,9 +274,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   margin-top: 0px;
-  padding-top: 94px;
 }
 
 .section-title-center {
@@ -283,8 +285,6 @@ body {
 
 .work-item {
   margin-right: 30px;
-  margin-bottom: 94px;
-  margin-top: 50px;
   width: 370px;
   height: 294px;
 }
