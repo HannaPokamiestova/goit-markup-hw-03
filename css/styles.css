@@ -361,6 +361,8 @@ body {
 
 .footer-logo {
   color: var(--white-color);
+  margin-bottom: 20px;
+  display: inline-block;
 }
 
 .footer-link {
