@@ -400,14 +400,9 @@ img {
 }
 
 .portfolio-set > .item {
-  margin-bottom: 30px;
-}
-
-.portfolio-set > .item {
-  list-style: none;
-  flex-basis: calc(100% / 3 - 30px);
   width: calc(100% / 3 - 30px);
   margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .header-link {
