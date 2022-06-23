@@ -87,6 +87,9 @@ body {
   border: none;
   padding: 10px 32px;
   border-radius: 4px;
+
+  margin-top: 30px;
+  min-width: 200px;
 }
 
 .button-list {
@@ -147,6 +150,10 @@ body {
   margin-left: 93px;
 }
 
+.style {
+  margin-left: 93px;
+}
+
 .site-contacts {
   margin-left: auto;
 }
@@ -183,16 +190,12 @@ body {
 
 /* ------------- HERO ---------- */
 
-.hero .container {
-  padding-bottom: 200px;
-  padding-top: 200px;
-  width: 1200px;
-  height: 600px;
-}
-
 .hero {
   background-color: var(--background-footer);
   text-align: center;
+
+  padding-bottom: 200px;
+  padding-top: 200px;
 }
 
 .hero-title {
@@ -205,15 +208,6 @@ body {
   color: var(--white-color);
 
   text-transform: uppercase;
-  margin-top: 0px;
-}
-
-.button-style {
-  margin-top: 30px;
-  margin-bottom: 200px;
-  width: 200px;
-  height: 50px;
-  padding: 0px;
 }
 
 /* ------------- BENEFITS ---------- */
@@ -311,11 +305,6 @@ body {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .team-list > .team-item {
