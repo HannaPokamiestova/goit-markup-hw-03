@@ -135,9 +135,6 @@ body {
 .site-contacts .item:not(:last-child) {
   margin-right: 50px;
 }
-.site-nav {
-  margin-left: 93px;
-}
 
 .style {
   margin-left: 93px;
@@ -294,7 +291,8 @@ body {
 .team-list > .team-item {
   margin-right: 30px;
   text-align: center;
-  flex-basis: calc(100% / 4 - 30px);
+  flex-basis: calc(100% / 3 - 30px);
+  width: 200px;
 }
 
 .team-item:last-child {
@@ -393,8 +391,6 @@ img {
 
 .portfolio-set {
   display: flex;
-  padding: 0px;
-  margin: 0px;
   flex-wrap: wrap; /*многостроковий flex-контейнер*/
   margin-right: -30px;
   margin-bottom: -30px;
